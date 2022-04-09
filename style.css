@@ -1,0 +1,65 @@
+body {
+    background-image: url(/image/IMG_0122.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -350px;
+}
+
+.logo img {
+    width: 15%;
+    border-radius: 50%;
+}
+    
+.container {
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: transparent;
+}
+    
+.container-data {
+    padding: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-size: 3vw;
+}
+    
+@media only screen and (max-width: 763px) {
+    .container-data {
+        padding: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        color: #fff;
+        font-family: Arial;
+        font-size: 6vw;
+    }
+}
+    
+@media only screen and (max-height: 423px) {
+    .container-data {
+        padding: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        color: #fff;
+        font-family: Arial;
+        font-size: 4vw;
+    }
+}
